@@ -15,6 +15,7 @@ export const router = createBrowserRouter([
       {
         index: true,
         loader: async () => redirect(mainPath.dashboard.path),
+        
       },
 
       {
