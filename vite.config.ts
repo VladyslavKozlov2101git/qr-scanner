@@ -6,7 +6,7 @@ import { defineConfig } from 'vitest/config';
 export default () => {
   return defineConfig({
     plugins: [react(), mkcert()],
-    base: '/qr-scanner',
+    base: '/',
     test: {
       globals: true,
       environment: 'jsdom',
