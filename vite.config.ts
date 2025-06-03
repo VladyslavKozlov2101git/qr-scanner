@@ -1,11 +1,10 @@
 import react from '@vitejs/plugin-react';
 
-import mkcert from 'vite-plugin-mkcert';
 import { defineConfig } from 'vitest/config';
 
 export default () => {
   return defineConfig({
-    plugins: [react(), mkcert()],
+    plugins: [react()],
     base: '/',
     test: {
       globals: true,
