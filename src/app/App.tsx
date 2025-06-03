@@ -14,6 +14,7 @@ interface AppProps {
 }
 
 const App: FC<AppProps> = () => {
+  console.log('Test 123');
   return (
     <Provider store={store}>
       <RouterProvider router={router} />
