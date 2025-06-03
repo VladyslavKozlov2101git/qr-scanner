@@ -1,0 +1,19 @@
+server {
+    listen 80;
+    server_name admin.dach.4-com.pro;
+
+    client_max_body_size 0;
+    charset utf-8;
+
+    index index.html index.htm index.nginx-debian.html;
+    root /var/www/dach-frontend/dist;
+
+    access_log /var/www/dach-frontend/logs/nginx_access.log;
+    error_log /var/www/dach-frontend/logs/nginx_error.log;
+
+    location / {
+        try_files $uri $uri/ /index.html?$args;
+    }
+}
+
+

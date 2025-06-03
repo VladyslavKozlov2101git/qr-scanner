@@ -1,0 +1,12 @@
+@use '@/assets/styles/mixins' as *;
+.root {
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  h2 {
+    margin-bottom: 8px;
+  }
+  h3 {
+    margin-bottom: 8px;
+  }
+}
