@@ -1,10 +1,5 @@
-import ErrorBoundary from "./ErrorBoundary";
-import PageNotFound from "./PageNotFound";
-import UseOnClickOutsideExample from "./UseOnClickOutsideExample";
-import UseDebounceExample from "./UseDebounceExample";
-import UseDeferredValueExample from './UseDeferredValueExample'
-import Skeleton from "./Skeleton";
+import ErrorBoundary from './ErrorBoundary';
+import PageNotFound from './PageNotFound';
+import Skeleton from './Skeleton';
 
-
-
-export { ErrorBoundary, Skeleton, UseDebounceExample, UseOnClickOutsideExample, UseDeferredValueExample, PageNotFound }
+export { ErrorBoundary, Skeleton, PageNotFound };
